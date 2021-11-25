@@ -1,0 +1,274 @@
+
+
+body {
+	margin: 0;
+}
+
+p {
+	font-size: 18px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #50361d;
+}
+
+nav {
+	background-color: #50361d;
+	display: inline-flex;
+	width: 100%;
+	align-items: center;
+}
+
+nav img {
+	width: 55px;
+	padding: 10px 0px 5px 10px;
+}
+
+nav h3 {
+	color: whitesmoke;
+	display: inline;
+	padding-left: 20px;
+	vertical-align: 140%;
+	font-size: 19px;
+}
+
+nav li a {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+	background-color: #50361d;
+	color: whitesmoke;
+	text-align: center;
+	font-size: 15px;
+	
+}
+
+footer table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+	color: white;
+	
+}
+
+footer img {
+	width: 90px;
+	padding: 10px 10px 10px 0px;
+}
+
+.footertext {
+	padding-right: 125px;
+	font-size: 17px;
+	color: white;
+}
+
+
+
+.meniu {
+	margin-left: auto;
+}
+
+.meniu li {
+	display: inline-block;
+}
+
+.buton {
+	background-color: #50361d;
+	padding: 15px 30px;
+}
+
+.buton a {
+	text-decoration: none;
+	color: white;
+}
+
+.buton:hover, .buton.active {
+	background-color: #ccffcc;
+}
+
+.buton:hover a, .buton.active a {
+	color: #50361d;
+}
+
+.continut {
+	padding: 100px;
+}
+
+.continut.continut-with-image {
+	background-image: url('Restaurant/bar2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+h1 {
+	color: white;
+	font-size: 80px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+	color: white;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 70px;
+	text-align: center;
+	padding: 50px;
+}
+
+h3 {
+	color: #50361d;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: 50px;
+	background-color:none;
+	
+}
+.titlu-meniu {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: 50px;
+	color: #50361d;
+	background-color: white;
+}
+h4 {
+	color: #50361d;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+h5 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: antiquewhite;
+	font-size: 30px;
+	padding: 0px;
+	text-align: center;
+}
+
+.continut p {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: #50361d;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.contiunt2 h2 {
+	padding: 50px;
+}
+
+img {
+	width: 100%;
+}
+
+.menu-card {
+	border: 1px solid rgb(43, 41, 41);
+	padding: 20px;
+	border-radius: 20px;
+	background: rgb(31, 30, 30);
+	width: 25%;
+	margin: 15px;
+	display: inline-block;
+	color:antiquewhite;
+}
+
+.pe-sfert {
+	width: 25%;
+	display: inline-block;
+}
+
+.sectiune {
+	background-color: white;
+	border: 10px solid white;
+	border-radius: 20px;
+	margin: 0px 25px;
+}
+
+.events {
+	padding:30px;
+}
+.copyright {
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	color:white;
+}
+.sectiune1 {
+	
+	width:100%;
+	padding:20px;
+	text-align: center;
+	
+}
+.sectiune1 img {
+		width:100px;
+		
+		
+}
+.sectiune1 h3 {
+	color:#50361d;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align:center;
+	font-size: 20px;
+	padding:10px 0px;
+}
+
+.sectiune2 {
+	background-color: bisque;
+	margin: 10px;
+	border: 5px solid#50361d ;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color:rgb(43, 41, 41);
+
+ }
+ 
+ .sectiune2 img {
+	 width:280px;
+	 padding: 15px;
+ }
+ .card { 
+	box-shadow: 0 10px 18px 0 rgb(43, 41, 41);
+	transition: 0.3s;
+	margin:10px;
+	
+	text-align: center;
+	background-color: rgb(43, 41, 41);
+
+ }
+ .card:hover {
+	box-shadow: 0 20px 16px 0 rgba(231, 19, 19, 0.2);
+}
+.schedule {
+	padding: 2px 16px;
+  }
+.card img{
+	  width:200px;
+	  padding:30px 20px;
+  }
+.cardtext {
+	color: antiquewhite;
+}
+.column {
+	
+	width: 25%;
+	padding:50px;
+	float:left;
+}
+  
+  .row:after {
+	  content: "";
+	display: table;
+	clear: both;
+  }
+  .events
+  {
+	color:rgb(31, 30, 30);
+	padding:20px;
+	text-align: center;
+	
+  }
+  .footertext a {	
+	  text-decoration: none;
+	color: white;
+	
+  }
